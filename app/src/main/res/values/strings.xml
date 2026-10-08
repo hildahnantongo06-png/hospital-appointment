@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hospital Appointment Management</string>
+    <string name="tagline">Better Care. Healthier Tomorrow.</string>
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_description">Book appointments with your doctors easily and conveniently.</string>
+
+    <!-- Buttons -->
+    <string name="get_started">Get Started</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="continue_guest">Continue as Guest</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
+    <string name="view_details">View Details</string>
+    <string name="add_doctor">Add Doctor</string>
+    <string name="edit_doctor">Edit Doctor</string>
+    <string name="delete_doctor">Delete Doctor</string>
+    <string name="confirm">Confirm</string>
+    <string name="complete">Complete</string>
+
+    <!-- Roles -->
+    <string name="select_role">Select Your Role</string>
+    <string name="select_role_desc">Choose how you want to use the app</string>
+    <string name="role_patient">Patient</string>
+    <string name="role_patient_desc">Book appointments, view doctor profiles, and manage your health records.</string>
+    <string name="role_doctor">Doctor</string>
+    <string name="role_doctor_desc">View appointments, manage your schedule, and update patient status.</string>
+    <string name="role_admin">Admin</string>
+    <string name="role_admin_desc">Manage doctors, patients, departments and view reports.</string>
+
+    <!-- Auth -->
+    <string name="login_title">Login to your account</string>
+    <string name="email_or_phone">Email or Phone Number</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="or_social">OR</string>
+    <string name="login_google">Login with Google</string>
+    <string name="login_facebook">Login with Facebook</string>
+    <string name="no_account">Don\'t have an account? Register</string>
+    <string name="already_account">Already have an account? Login</string>
+    <string name="create_account">Create Your Account</string>
+    <string name="register_subtitle">Join us to get the best healthcare services</string>
+
+    <!-- Dashboards -->
+    <string name="greeting_format">Hello, %1$s 👋</string>
+    <string name="doctor_greeting_format">%1$s, %2$s 👋</string>
+    <string name="health_matters">Your health matters</string>
+    <string name="search_hint">Search doctors, departments...</string>
+    <string name="banner_title">Your Health\nOur Priority</string>
+    <string name="banner_subtitle">Book an appointment today for a healthier tomorrow.</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_appointments">Appointments</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_manage">Manage</string>
+
+    <!-- Features -->
+    <string name="appointments">Appointments</string>
+    <string name="my_appointments">My Appointments</string>
+    <string name="doctors">Doctors</string>
+    <string name="departments">Departments</string>
+
+    <!-- Doctor Details -->
+    <string name="available_doctors">Available Doctors</string>
+    <string name="available_times">Available Times</string>
+    <string name="rating_format">%1$.1f (%2$d reviews)</string>
+    <string name="experience_format">%1$d years experience</string>
+    <string name="reason_for_visit">Reason for Visit</string>
+    <string name="reason_hint">e.g. Fever, Consultation...</string>
+    <string name="notes_hint">Additional information...</string>
+
+    <!-- Statuses -->
+    <string name="status_confirmed">Confirmed</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_cancelled">Cancelled</string>
+    <string name="status_completed">Completed</string>
+
+    <!-- Admin -->
+    <string name="welcome_admin">Welcome, Admin</string>
+    <string name="manage_system">Manage the hospital system</string>
+    <string name="total_doctors">Total Doctors</string>
+    <string name="total_patients">Total Patients</string>
+    <string name="total_appointments">Total Appointments</string>
+    <string name="reports">Reports</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="manage_doctors">Manage Doctors</string>
+    <string name="manage_patients">Manage Patients</string>
+</resources>

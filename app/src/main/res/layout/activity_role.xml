@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7FAFC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Back button -->
+        <TextView
+            android:id="@+id/tvBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="‹"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="5dp"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Your Role"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#183153"
+            android:gravity="center"/>
+
+        <!-- Subtitle -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose how you want to use the app"
+            android:textSize="14sp"
+            android:textColor="#64748B"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="28dp"/>
+
+        <!-- Patient Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="18dp"
+            android:background="@drawable/role_patient_background"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/patientCard"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:text="👤"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:background="#1976D2"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Patient"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#183153"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book appointments, view doctors and manage your health records."
+                    android:textSize="12sp"
+                    android:textColor="#64748B"
+                    android:layout_marginTop="5dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textSize="30sp"
+                android:textColor="#1976D2"/>
+
+        </LinearLayout>
+
+        <!-- Doctor Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="18dp"
+            android:background="@drawable/role_doctor_background"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/doctorCard"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:text="👨‍⚕️"
+                android:textSize="27sp"
+                android:gravity="center"
+                android:background="#20A66A"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doctor"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#183153"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View appointments, manage your schedule and update patient status."
+                    android:textSize="12sp"
+                    android:textColor="#64748B"
+                    android:layout_marginTop="5dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textSize="30sp"
+                android:textColor="#20A66A"/>
+
+        </LinearLayout>
+
+        <!-- Admin Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="18dp"
+            android:background="@drawable/role_admin_background"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/adminCard">
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:text="🔐"
+                android:textSize="27sp"
+                android:gravity="center"
+                android:background="#7B4DD6"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Admin"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#183153"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Manage doctors, patients, departments and view reports."
+                    android:textSize="12sp"
+                    android:textColor="#64748B"
+                    android:layout_marginTop="5dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textSize="30sp"
+                android:textColor="#7B4DD6"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
